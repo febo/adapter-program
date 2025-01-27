@@ -1,4 +1,4 @@
-use pinocchio_adapter::account_info::AccountInfoAdapter;
+use pinocchio_adapter::{account_info::AccountInfoAdapter, to_program_error};
 use pinocchio_system::instructions::CreateAccount;
 use solana_account_info::AccountInfo;
 use solana_cpi::invoke;
@@ -50,5 +50,5 @@ pub(crate) fn process_create_account_v2(
         owner: &pinocchio_system::ID,
     }
     .invoke()
-    .map_err(|error| ProgramError::from(u64::from(error)))
+    .map_err(|error| to_program_error!(error))
 }

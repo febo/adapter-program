@@ -1571,7 +1571,7 @@ dependencies = [
 [[package]]
 name = "mollusk-svm"
 version = "0.0.15"
-source = "git+https://github.com/buffalojoec/mollusk.git#005335534f2acd1c5af2024613d5035fff00c17e"
+source = "git+https://github.com/buffalojoec/mollusk.git#5af36477aac93745321da7661c8b8d1ef8737f99"
 dependencies = [
  "bincode",
  "mollusk-svm-error",
@@ -1589,7 +1589,7 @@ dependencies = [
 [[package]]
 name = "mollusk-svm-bencher"
 version = "0.0.15"
-source = "git+https://github.com/buffalojoec/mollusk.git#005335534f2acd1c5af2024613d5035fff00c17e"
+source = "git+https://github.com/buffalojoec/mollusk.git#5af36477aac93745321da7661c8b8d1ef8737f99"
 dependencies = [
  "chrono",
  "mollusk-svm",
@@ -1601,7 +1601,7 @@ dependencies = [
 [[package]]
 name = "mollusk-svm-error"
 version = "0.0.15"
-source = "git+https://github.com/buffalojoec/mollusk.git#005335534f2acd1c5af2024613d5035fff00c17e"
+source = "git+https://github.com/buffalojoec/mollusk.git#5af36477aac93745321da7661c8b8d1ef8737f99"
 dependencies = [
  "solana-sdk",
  "thiserror",
@@ -1610,7 +1610,7 @@ dependencies = [
 [[package]]
 name = "mollusk-svm-keys"
 version = "0.0.15"
-source = "git+https://github.com/buffalojoec/mollusk.git#005335534f2acd1c5af2024613d5035fff00c17e"
+source = "git+https://github.com/buffalojoec/mollusk.git#5af36477aac93745321da7661c8b8d1ef8737f99"
 dependencies = [
  "mollusk-svm-error",
  "solana-sdk",
@@ -1871,12 +1871,12 @@ checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
 [[package]]
 name = "pinocchio"
 version = "0.7.1"
-source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#8857bfc0b8094bdef87c8813a117df11d96eb823"
+source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#1c350fa31d2944799f344c2b9bd5d28897eaec1b"
 
 [[package]]
 name = "pinocchio-adapter"
 version = "0.1.0"
-source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#8857bfc0b8094bdef87c8813a117df11d96eb823"
+source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#1c350fa31d2944799f344c2b9bd5d28897eaec1b"
 dependencies = [
  "pinocchio",
  "solana-account-info",
@@ -1886,7 +1886,7 @@ dependencies = [
 [[package]]
 name = "pinocchio-pubkey"
 version = "0.2.2"
-source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#8857bfc0b8094bdef87c8813a117df11d96eb823"
+source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#1c350fa31d2944799f344c2b9bd5d28897eaec1b"
 dependencies = [
  "five8_const",
  "pinocchio",
@@ -1895,7 +1895,7 @@ dependencies = [
 [[package]]
 name = "pinocchio-system"
 version = "0.2.1"
-source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#8857bfc0b8094bdef87c8813a117df11d96eb823"
+source = "git+https://github.com/anza-xyz/pinocchio.git?branch=febo/adapter#1c350fa31d2944799f344c2b9bd5d28897eaec1b"
 dependencies = [
  "pinocchio",
  "pinocchio-pubkey",
