@@ -37,8 +37,8 @@ pub(crate) fn process_create_account_v2(
 
     let (from_adapter, to_adapter) = unsafe {
         (
-            AccountInfoAdapter::new(from_info),
-            AccountInfoAdapter::new(to_info),
+            AccountInfoAdapter::new_unchecked(from_info),
+            AccountInfoAdapter::new_unchecked(to_info),
         )
     };
 
