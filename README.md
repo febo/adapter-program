@@ -32,6 +32,8 @@ To illustrate the difference in CU consumption, `adapter-program` includes 2 ins
 | create_account_v1 (SDK)       | 🟥 2866 | +921       |
 | create_account_v2 (pinocchio) | 🟩 1945 |            |
 
+This benchmark shows that if you replace the SDK-based CPI code to the System program to use the `pinocchio` equivalent one, you will potentially save `921` CUs in your program.
+
 ## Running the benchmark
 
 To run the benchmarks, you will need to first build the program. From the root of the repository, run:
